@@ -36,6 +36,10 @@ UPDATE cursos
 SET ano = '2050', carga = '800'
 WHERE ano = '2018';
 
+/* Remover limitação de atualização de linhas:
+	Menu Edit -> Preferences -> SQL Editor -> Marcar "Safe Updates"
+*/
+
 UPDATE cursos
 SET ano = '2018', carga = '0'
 WHERE ano = '2050'
