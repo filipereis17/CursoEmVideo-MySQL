@@ -4,6 +4,8 @@ CREATE DATABASE cadastro
 DEFAULT CHARACTER SET utf8
 DEFAULT COLLATE utf8_general_ci;
 
+USE cadastro;
+
 CREATE TABLE pessoas (
 	id int NOT NULL AUTO_INCREMENT,
 	`nome` VARCHAR(30) NOT NULL,

@@ -28,6 +28,8 @@ RENAME TO gafanhotos;
 
 DESC gafanhotos;
 
+SELECT * FROM gafanhotos;
+
 CREATE TABLE IF NOT EXISTS gafanhotos (teste int);
 
 CREATE TABLE IF NOT EXISTS cursos (
